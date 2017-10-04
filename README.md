@@ -9,8 +9,7 @@
 #### Pairs Trading (mean reversion)
 
 Используя статистические тесты, раз в период осуществлять поиск коинтегрированных пар/троек активов вида:
-![equation](http://latex.codecogs.com/gif.latex?A_0&plus;beta_1%5Ctimes%20A_1&plus;beta_2%5Ctimes%20A_2)
-
+<div style="text-align: center;margin-bottom:-10px"><img style="margin-top:-28px" src="http://latex.codecogs.com/gif.latex?A_0&amp;plus;beta_1%5Ctimes%20A_1&amp;plus;beta_2%5Ctimes%20A_2"></div>
 Учитывая свойство возврата к среднему формировать динамический портфель из найденных комбинаций. Оценка текущего режима волатильности может быть использована, как фактор масштабирования размер позиции. 
 
 **keywords:** `cointegration`, `stationarity_test`, `johansen_test`, `augmented_dickey_fuller_test`
